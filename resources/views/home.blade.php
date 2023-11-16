@@ -122,12 +122,16 @@
     </div>
 
     <div class="sidebar">
-        <div class="sidebar-menu">Home</div>
+        <div class="sidebar-menu" style="color: black">Home</div>
         <div class="sidebar-menu">
             <a href="payment">Payment</a>
         </div>
-        <div class="sidebar-menu">Member List</div>
-        <div class="sidebar-menu">Documents</div>
+        <div class="sidebar-menu">
+            <a href="memberlist">Member List</a>
+        </div>
+        {{-- <div class="sidebar-menu">
+            <a href="document">Document</a>
+        </div> --}}
     </div>
 
     <div class="main-content">

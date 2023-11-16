@@ -84,8 +84,9 @@
         .main-menu h2 {
             font-size: 24px;
             font-weight: bold;
-            margin-right: 20px;
-            color: white
+            color: white;
+            text-align: center;
+            /* Center the text */
         }
 
         .sidebar-menu {
@@ -95,11 +96,6 @@
             border-bottom: 2px solid white;
             padding-bottom: 10px;
             /* Add padding for better appearance */
-        }
-
-        .sidebar-menu a {
-            text-decoration: none;
-            color: white;
         }
     </style>
 </head>
@@ -123,51 +119,32 @@
 
     <div class="sidebar">
         <div class="sidebar-menu">
-            <a href="home">Home</a>
+            <a href="home" style="color: white; text-decoration: none;">Home</a>
         </div>
-        <div class="sidebar-menu" style="color: black">Payment</div>
         <div class="sidebar-menu">
-            <a href="memberlist">Member List</a>
+            <a href="payment" style="color: white; text-decoration: none;">Payment</a>
         </div>
+        <div class="sidebar-menu" style="color: black">Member List</div>
         {{-- <div class="sidebar-menu">
-            <a href="Document">Document</a>
+            <a href="home" style="color: white; text-decoration: none;">Document</a>
         </div> --}}
-
     </div>
     <div class="main-content">
         <div class="main-menu">
-            <h2>Iuran Bulanan</h2>
-            <ul>
-                <li>Person 1</li>
-                <li>Person 2</li>
-                <!-- Add more list items as needed -->
-            </ul>
+            <h2>RT01</h2>
         </div>
 
         <div class="main-menu">
-            <h2>Iuran Sampah</h2>
-            <ul>
-                <li>Person 3</li>
-                <li>Person 4</li>
-                <!-- Add more list items as needed -->
-            </ul>
+            <h2>RT02</h2>
+
         </div>
 
         <div class="main-menu">
-            <h2>Iuran Ronda</h2>
-            <ul>
-                <li>Person 3</li>
-                <li>Person 4</li>
-                <!-- Add more list items as needed -->
-            </ul>
+            <h2>RT03</h2>
+
         </div>
         <div class="main-menu">
-            <h2>Iuran THR</h2>
-            <ul>
-                <li>Person 3</li>
-                <li>Person 4</li>
-                <!-- Add more list items as needed -->
-            </ul>
+            <h2>RT04</h2>
         </div>
     </div>
 

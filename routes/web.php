@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MemberlistController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/memberlist', [MemberlistController::class, 'index'])->name('MemberList/daftarMemberList');
 Route::get('/payment', [PaymentController::class, 'index'])->name('payment/daftarPayment');
 Route::get('/home', function () {
     return view('home');
